@@ -4,5 +4,4 @@ from . models import foods
 class foodsSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = foods
-        fields = ('Mfd_id','Name','UnitPrice','UnitInStock')
-        
+        fields = ('Mfd_id','Name','UnitPrice','UnitsInStock')
